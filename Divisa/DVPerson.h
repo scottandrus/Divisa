@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DVPerson : NSObject
+#define kNameKey @"Person_Name"
+#define kPhotoKey @"Person_Photo"
+
+@interface DVPerson : NSObject <NSCoding>
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) UIImage *photo;

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0900667B179232CF00839756 /* SAViewManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0900667A179232CF00839756 /* SAViewManipulator.m */; };
+		0900667E1792336A00839756 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0900667D1792336A00839756 /* QuartzCore.framework */; };
+		09006681179247C800839756 /* UIImageView+Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = 09006680179247C800839756 /* UIImageView+Filters.m */; };
+		0900668317924A2C00839756 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0900668217924A2C00839756 /* CoreImage.framework */; };
+		090066861792F60400839756 /* DVConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090066851792F60400839756 /* DVConnectViewController.m */; };
+		092C68921792260400535836 /* DVIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C688F179224ED00535836 /* DVIntroViewController.m */; };
+		092C68931792260400535836 /* DVTakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C68911792253800535836 /* DVTakePhotoViewController.m */; };
+		092C68951792295C00535836 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092C68941792295C00535836 /* MobileCoreServices.framework */; };
+		092C689917922DA100535836 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 092C689817922C3C00535836 /* UIView+Frame.m */; };
 		529C38C21764059E00B0AA7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C38C11764059E00B0AA7E /* UIKit.framework */; };
 		529C38C41764059E00B0AA7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C38C31764059E00B0AA7E /* Foundation.framework */; };
 		529C38C61764059E00B0AA7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 529C38C51764059E00B0AA7E /* CoreGraphics.framework */; };
@@ -41,6 +50,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0900667A179232CF00839756 /* SAViewManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAViewManipulator.m; sourceTree = "<group>"; };
+		0900667C179232D900839756 /* SAViewManipulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAViewManipulator.h; sourceTree = "<group>"; };
+		0900667D1792336A00839756 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0900667F179247C800839756 /* UIImageView+Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Filters.h"; sourceTree = "<group>"; };
+		09006680179247C800839756 /* UIImageView+Filters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Filters.m"; sourceTree = "<group>"; };
+		0900668217924A2C00839756 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		090066841792F60400839756 /* DVConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVConnectViewController.h; sourceTree = "<group>"; };
+		090066851792F60400839756 /* DVConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVConnectViewController.m; sourceTree = "<group>"; };
+		092C688E179224ED00535836 /* DVIntroViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVIntroViewController.h; sourceTree = "<group>"; };
+		092C688F179224ED00535836 /* DVIntroViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVIntroViewController.m; sourceTree = "<group>"; };
+		092C68901792253800535836 /* DVTakePhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTakePhotoViewController.h; sourceTree = "<group>"; };
+		092C68911792253800535836 /* DVTakePhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVTakePhotoViewController.m; sourceTree = "<group>"; };
+		092C68941792295C00535836 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		092C689717922C3C00535836 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		092C689817922C3C00535836 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		529C38BE1764059E00B0AA7E /* Divisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Divisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529C38C11764059E00B0AA7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		529C38C31764059E00B0AA7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +124,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0900668317924A2C00839756 /* CoreImage.framework in Frameworks */,
+				0900667E1792336A00839756 /* QuartzCore.framework in Frameworks */,
+				092C68951792295C00535836 /* MobileCoreServices.framework in Frameworks */,
 				529C38C21764059E00B0AA7E /* UIKit.framework in Frameworks */,
 				529C38C41764059E00B0AA7E /* Foundation.framework in Frameworks */,
 				529C38C61764059E00B0AA7E /* CoreGraphics.framework in Frameworks */,
@@ -109,6 +136,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09006679179232C300839756 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0900667C179232D900839756 /* SAViewManipulator.h */,
+				0900667A179232CF00839756 /* SAViewManipulator.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		092C689617922C2100535836 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				092C689717922C3C00535836 /* UIView+Frame.h */,
+				092C689817922C3C00535836 /* UIView+Frame.m */,
+				0900667F179247C800839756 /* UIImageView+Filters.h */,
+				09006680179247C800839756 /* UIImageView+Filters.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		529C38B51764059E00B0AA7E = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +176,9 @@
 		529C38C01764059E00B0AA7E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0900668217924A2C00839756 /* CoreImage.framework */,
+				0900667D1792336A00839756 /* QuartzCore.framework */,
+				092C68941792295C00535836 /* MobileCoreServices.framework */,
 				529C38C11764059E00B0AA7E /* UIKit.framework */,
 				529C38C31764059E00B0AA7E /* Foundation.framework */,
 				529C38C51764059E00B0AA7E /* CoreGraphics.framework */,
@@ -139,6 +189,8 @@
 		529C38C71764059E00B0AA7E /* Divisa */ = {
 			isa = PBXGroup;
 			children = (
+				09006679179232C300839756 /* Utilities */,
+				092C689617922C2100535836 /* Categories */,
 				52C967FB17642F4400304F99 /* AFNetworking */,
 				52C967381764117300304F99 /* Models */,
 				52C96730176410C800304F99 /* Views */,
@@ -190,6 +242,12 @@
 				529C38E01764059E00B0AA7E /* DVStuffViewController.m */,
 				529C38E61764059E00B0AA7E /* DVSecondViewController.h */,
 				529C38E71764059E00B0AA7E /* DVSecondViewController.m */,
+				092C688E179224ED00535836 /* DVIntroViewController.h */,
+				092C688F179224ED00535836 /* DVIntroViewController.m */,
+				092C68901792253800535836 /* DVTakePhotoViewController.h */,
+				092C68911792253800535836 /* DVTakePhotoViewController.m */,
+				090066841792F60400839756 /* DVConnectViewController.h */,
+				090066851792F60400839756 /* DVConnectViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -292,6 +350,11 @@
 				CLASSPREFIX = DV;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Tapatory, LLC";
+				TargetAttributes = {
+					529C38BD1764059E00B0AA7E = {
+						DevelopmentTeam = 39YF7X847Q;
+					};
+				};
 			};
 			buildConfigurationList = 529C38B91764059E00B0AA7E /* Build configuration list for PBXProject "Divisa" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -335,6 +398,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092C689917922DA100535836 /* UIView+Frame.m in Sources */,
+				092C68921792260400535836 /* DVIntroViewController.m in Sources */,
+				092C68931792260400535836 /* DVTakePhotoViewController.m in Sources */,
 				529C38CE1764059E00B0AA7E /* main.m in Sources */,
 				529C38D21764059E00B0AA7E /* DVAppDelegate.m in Sources */,
 				529C38E11764059E00B0AA7E /* DVStuffViewController.m in Sources */,
@@ -347,10 +413,13 @@
 				52C9681017642F4400304F99 /* AFHTTPRequestOperation.m in Sources */,
 				52C9681117642F4400304F99 /* AFImageRequestOperation.m in Sources */,
 				52C9681217642F4400304F99 /* AFJSONRequestOperation.m in Sources */,
+				090066861792F60400839756 /* DVConnectViewController.m in Sources */,
 				52C9681317642F4400304F99 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				52C9681417642F4400304F99 /* AFPropertyListRequestOperation.m in Sources */,
 				52C9681517642F4400304F99 /* AFURLConnectionOperation.m in Sources */,
 				52C9681617642F4400304F99 /* AFXMLRequestOperation.m in Sources */,
+				09006681179247C800839756 /* UIImageView+Filters.m in Sources */,
+				0900667B179232CF00839756 /* SAViewManipulator.m in Sources */,
 				52C9681717642F4400304F99 /* UIImageView+AFNetworking.m in Sources */,
 				52C9681A1764331E00304F99 /* DVResponsibility.m in Sources */,
 			);
@@ -447,6 +516,7 @@
 		529C38F01764059F00B0AA7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Divisa/Divisa-Prefix.pch";
 				INFOPLIST_FILE = "Divisa/Divisa-Info.plist";
@@ -458,6 +528,7 @@
 		529C38F11764059F00B0AA7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Divisa/Divisa-Prefix.pch";
 				INFOPLIST_FILE = "Divisa/Divisa-Info.plist";

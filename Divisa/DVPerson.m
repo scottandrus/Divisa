@@ -42,4 +42,22 @@
     return self;
 }
 
+#pragma mark - NSCoding
+
+- (void)encodeWithCoder:(NSCoder *)aCoder
+{
+    [aCoder encodeObject:self.name forKey:kNameKey];
+    [aCoder encodeObject:self.photo forKey:kPhotoKey];
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super init];
+    if (self) {
+        // Initialization
+    }
+    
+    return self;
+}
+
 @end

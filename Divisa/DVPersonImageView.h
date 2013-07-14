@@ -13,4 +13,6 @@
 
 @property (nonatomic, strong) DVPerson *person;
 
+- (id)initWithPerson:(DVPerson *)person;
+
 @end
